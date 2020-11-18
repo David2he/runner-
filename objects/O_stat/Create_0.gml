@@ -1,7 +1,7 @@
-global.speed_player = 5;
-global.spawn_enemies_apparition = room_speed * 2;
+global.speed_player = 10;
+global.spawn_enemies_apparition = room_speed * 0.2;
 
-global.attack = 200;
+global.attack = 150;
 global.attack_speed = room_speed * 0.7;
 
 global.obj_color = c_white;

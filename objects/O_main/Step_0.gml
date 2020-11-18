@@ -10,11 +10,11 @@ if(!global.place_meet_monster){
 	image_speed = 1;
 }
 
-if(place_meeting(x + 50, y, O_enemies_spawn) && first_attack){
+if(place_meeting(x + 45, y, O_enemies_spawn) && first_attack){
 	allowed_to_attack = true;
-	S_first_contact();
 	get_out_sprite = true;
 	start_basic_attack = true;
+	S_first_contact();
 }
 
 if(place_meeting(x + 15, y, O_enemies_spawn)){
@@ -33,7 +33,7 @@ if(place_meeting(x + 15, y, O_enemies_spawn)){
 	layer_hspeed(lay_bg_sky, 0);
 }
 
-
+show_debug_message(first_attack);
 if(start_basic_attack && allowed_to_attack){
 	image_speed = 1;
 	sprite_index = s_player_b_attack;
