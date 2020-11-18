@@ -5,7 +5,7 @@ function S_is_dead(){
 		global.place_meet_monster = false;
 		all_damage_given_player = 0;
 		first_attack_damage = 0;
-		first_attack = true;
+		first_attack = true; 
 		global.obj_Alpha = 0;
 	}
 }

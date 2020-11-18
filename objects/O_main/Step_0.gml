@@ -10,7 +10,7 @@ if(!global.place_meet_monster){
 	image_speed = 1;
 }
 
-if(place_meeting(x + 60, y, O_enemies_spawn) && first_attack){
+if(place_meeting(x + 50, y, O_enemies_spawn) && first_attack){
 	allowed_to_attack = true;
 	S_first_contact();
 	get_out_sprite = true;
