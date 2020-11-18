@@ -12,6 +12,6 @@ first_attack_damage = 0;
 is_dead = false;
 get_out_sprite = false;
 
-
+allowed_to_attack = false;
 
 image_speed = 1;
