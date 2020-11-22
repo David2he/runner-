@@ -10,7 +10,11 @@ if(!global.place_meet_monster){
 	image_speed = 1;
 }
 
-if(place_meeting(x + 45, y, O_enemies_spawn) && first_attack){
+if((place_meeting(x + 50, y, O_enemies_spawn)) && (global.attack * (global.speed_player / 2) >= global.hp_enemies_max) && first_attack){
+	is_dead = true;
+	S_is_dead();
+	show_debug_message("test");
+} else if(place_meeting(x + 45, y, O_enemies_spawn) && first_attack){
 	allowed_to_attack = true;
 	get_out_sprite = true;
 	start_basic_attack = true;
@@ -18,6 +22,7 @@ if(place_meeting(x + 45, y, O_enemies_spawn) && first_attack){
 }
 
 if(place_meeting(x + 15, y, O_enemies_spawn)){
+	
 	global.place_meet_monster = true;
 	
 	if(alarm[1] == -1){

@@ -1,6 +1,7 @@
 function S_is_dead(){
 	if((is_dead) || (all_damage_given_player >= global.hp_enemies_max)){
 		instance_destroy(O_enemies_spawn);
+		is_dead = false;
 		allowed_to_attack = false;
 		global.place_meet_monster = false;
 		all_damage_given_player = 0;
