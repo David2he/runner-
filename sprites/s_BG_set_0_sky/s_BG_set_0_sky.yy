@@ -29,12 +29,6 @@
       ],"parent":{"name":"s_BG_set_0_sky","path":"sprites/s_BG_set_0_sky/s_BG_set_0_sky.yy",},"resourceVersion":"1.0","name":"4fe7eadf-cad6-4c38-b5ec-f42868c89c2a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"55e80d12-b9a1-4dd4-86e4-b3ec3fa15d6e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4fe7eadf-cad6-4c38-b5ec-f42868c89c2a","path":"sprites/s_BG_set_0_sky/s_BG_set_0_sky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
-    ],
-    "name": "s_BG_set_0_sky",
     "spriteId": {"name":"s_BG_set_0_sky","path":"sprites/s_BG_set_0_sky/s_BG_set_0_sky.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -45,6 +39,11 @@
     "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"55e80d12-b9a1-4dd4-86e4-b3ec3fa15d6e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4fe7eadf-cad6-4c38-b5ec-f42868c89c2a","path":"sprites/s_BG_set_0_sky/s_BG_set_0_sky.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
     "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
@@ -61,6 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"s_BG_set_0_sky","path":"sprites/s_BG_set_0_sky/s_BG_set_0_sky.yy",},
     "resourceVersion": "1.3",
+    "name": "s_BG_set_0_sky",
     "tags": [],
     "resourceType": "GMSequence",
   },

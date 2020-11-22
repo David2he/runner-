@@ -29,12 +29,6 @@
       ],"parent":{"name":"s_BG_set_0_middle","path":"sprites/s_BG_set_0_middle/s_BG_set_0_middle.yy",},"resourceVersion":"1.0","name":"213709a2-3fef-4348-9eae-480edf509345","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e166c632-98a2-4b10-a5aa-dd45ad43aff1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"213709a2-3fef-4348-9eae-480edf509345","path":"sprites/s_BG_set_0_middle/s_BG_set_0_middle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
-    ],
-    "name": "s_BG_set_0_middle",
     "spriteId": {"name":"s_BG_set_0_middle","path":"sprites/s_BG_set_0_middle/s_BG_set_0_middle.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -45,6 +39,11 @@
     "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e166c632-98a2-4b10-a5aa-dd45ad43aff1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"213709a2-3fef-4348-9eae-480edf509345","path":"sprites/s_BG_set_0_middle/s_BG_set_0_middle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
     "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
@@ -61,6 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"s_BG_set_0_middle","path":"sprites/s_BG_set_0_middle/s_BG_set_0_middle.yy",},
     "resourceVersion": "1.3",
+    "name": "s_BG_set_0_middle",
     "tags": [],
     "resourceType": "GMSequence",
   },
