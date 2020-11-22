@@ -23,17 +23,11 @@ if(place_meeting(x + 15, y, O_enemies_spawn)){
 	if(alarm[1] == -1){
 		alarm[1]= global.attack_speed;
 	}
-	else{
-		if(global.obj_Alpha > 0){
-			global.obj_Alpha -=0.08;
-		}
-	}
 	layer_hspeed(lay_bg_floor, 0);
 	layer_hspeed(lay_bg_midle, 0);
 	layer_hspeed(lay_bg_sky, 0);
 }
 
-show_debug_message(first_attack);
 if(start_basic_attack && allowed_to_attack){
 	image_speed = 1;
 	sprite_index = s_player_b_attack;
