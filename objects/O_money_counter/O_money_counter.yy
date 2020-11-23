@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_money",
+    "path": "sprites/s_money/s_money.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"O_money_counter","path":"objects/O_money_counter/O_money_counter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_ui",
+  "name": "O_money_counter",
   "tags": [],
   "resourceType": "GMObject",
 }

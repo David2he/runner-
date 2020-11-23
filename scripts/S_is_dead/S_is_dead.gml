@@ -8,5 +8,6 @@ function S_is_dead(){
 		first_attack_damage = 0;
 		first_attack = true; 
 		global.obj_Alpha = 0;
+		global.money += 15;
 	}
 }

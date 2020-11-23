@@ -9,3 +9,5 @@ global.hp_enemies_max = global.array_stat[_random_enemies][1];
 global.hp_enemies = global.hp_enemies_max;
 
 cache_hp_enemies = global.hp_enemies_max;
+
+image_speed = 0.5;

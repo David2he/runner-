@@ -10,3 +10,7 @@ global.obj_Alpha =0;
 global.place_meet_monster = false;
 
 global.lvl = 0;
+global.money = 0;
+
+
+global.open_shop_frame = false;
